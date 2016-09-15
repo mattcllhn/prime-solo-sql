@@ -1,7 +1,7 @@
 --1. select username from syntax_practice where city='chicago';
 --2. select username from syntax_practice where username like '%a%';
 --3. UPDATE users set active=true where id=2;
---4. select username from syntax_practice where username like '%a%';\
+--4. select username from syntax_practice where transactions_attempted>9;
 --5. select username, account_balance from syntax_practice order by account_balance desc limit 3;
 --6. select username, account_balance from syntax_practice order by account_balance asc limit 3;
 --7. select username from syntax_practice where account_balance>100;
