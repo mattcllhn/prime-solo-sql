@@ -1,0 +1,9 @@
+--1. select username from syntax_practice where city='chicago';
+--2. select username from syntax_practice where username like '%a%';
+--3. UPDATE users set active=true where id=2;
+--4. select username from syntax_practice where username like '%a%';\
+--5. select username, account_balance from syntax_practice order by account_balance desc limit 3;
+--6. select username, account_balance from syntax_practice order by account_balance asc limit 3;
+--7. select username from syntax_practice where account_balance>100;
+--8. INSERT INTO syntax_practice (username,city,transactions_completed,transactions_attempted,account_balance ) VALUES ('mattwashere', 'Denver',23,65,200);
+--9. DELETE from syntax_practice where city='miami'or city='Phoenix'and transactions_completed<5;
